@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat Room</title>
+        <link href="chat.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="images.png">
+            <div class="logo">CHAT ROOM</div>
+        </header>
+        <div class="container">
+        </div>
+        <div class="send">
+            <input class="message">
+            <button class="send">send</button>
+        </div>
+        <form id="username-form">
+            <input class="name">
+            <button class="sending">sendName</button>
+        </form>
+        <script defer src="http://localhost:8800/socket.io/socket.io.js"></script>
+        <script defer src="chat.js"></script>
+    </body>
+</html>
